@@ -1,11 +1,7 @@
 .App {
   background-color: black;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-header {
-  height: 130px;
+  font-family: "system-ui";
+  font-weight: 600;
 }
 
 .logo {
@@ -14,13 +10,13 @@ header {
 }
 
 .container {
-  margin: 0 0 40px 50px;
+  margin: 0 0 45px 50px;
 }
 
 .category {
   color: white;
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin: 20px 0;
 }
 
 .images {

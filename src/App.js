@@ -10,12 +10,12 @@ function App() {
         <img className="logo" src={Logo} />
       </header>
       <main>
-        {data.map((object, index) => {
+        {data.map((item, index) => {
           return (
             <Section
               key={index}
-              category={object.category}
-              images={object.images}
+              category={item.category}
+              images={item.images}
             />
           );
         })}
