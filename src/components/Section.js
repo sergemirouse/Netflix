@@ -4,7 +4,7 @@ const Section = ({ category, images }) => {
       <p className="category">{category}</p>
       <div className="images">
         {images.map((img, index) => {
-          return <img key={index} src={img} />;
+          return <img key={index} src={img} alt={images} />;
         })}
       </div>
     </div>
